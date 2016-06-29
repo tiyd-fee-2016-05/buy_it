@@ -4,25 +4,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
-    <title>Edit</title>
+    <title>A-Edit-Page</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
 
   </head>
 
   <body>
 
-    <h2>AdminEditPage</h2>
+    <div class="container">
 
-      <header class="adminEditPage">
-      <ul>
+    <h2>A-Edit-Page</h2>
 
-      <button>Logo</button>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <ul>
+
+<!--    HEADER  -->
+      <header class="adminEditPage"><!--- Nav Bar -->
+      <a href="#" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
+        <ul>
+        <button>Logo</button>
+        <li><a href="#"></a>link</li>
+        <li><a href="#"></a>link</li>
+        <li><a href="#"></a>link</li>
+        <ul>
     </header>
 
+
+
+
+<!--   IMAGE  -->
     <div class="section group">
       <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
@@ -30,19 +38,27 @@
       </form>
      </div>
 
+
+<!--  PRICE AND DESCRIPTION -->
     <div class="col span_1_of_2">
       <ul id="admin-edit">
           <li class="admin-edit-li">
-            <!-- <a href="#/"> -->
-            <input type=class="left-side" placeholder"{{price}}"/>
+            <a href="#/">
+            <input type='text' class="left-side" placeholder"{{price}}"/>
             <input type="text" class="right-side" placeholder="{{description}}"/>
           </div>
-          <!-- </a> -->
+          </a>
         </li>
+
+        <li class='edit-btn'>
+          <a href="#/">
+          <button>Save</button>
+        </a>
+      </li>
     </ul>
 </div>
 
-
+</div>
 
 
 
