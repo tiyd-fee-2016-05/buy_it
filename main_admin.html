@@ -13,17 +13,21 @@
   <body>
     <div class="container">
 
-
+      <div id="mainpage">
 
     <h2>MainAdminPage</h2>
 
       <header class="mainAdmPage"><!-- Nav Bar -->
-      
+
       <ul>
-      <button>Logo</button>
-      <li><a href="#"></a>link</li>
-      <li><a href="#"></a>link</li>
-      <li><a href="#"></a>link</li>
+      <a href="#/">
+      <button id="logo">Logo</button></a>
+      <li class="link"><a href="#"></a>
+      <button>link</button></li>
+      <li class="link"><a href="#"></a>
+        <button>link</button></li>
+      <li class="link"><a href="#"></a>
+        <button>link</button></li>
       <ul>
     </header>
 
@@ -33,7 +37,7 @@
       <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
         <input class="input-form">
-        <a href="#"><img src="" alt=""/></a><!-- image -->
+        <a href="#" id="img"><img src="" alt=""/></a><!-- image -->
       </form>
       </div>
 
@@ -41,9 +45,9 @@
 <!--    DESCRIPTION AND PRICE -->
       <div class="col span_1_of_2">
         <form class="new-list-form" action="index.html" method="post">
-        <input type="text" class="input-form" placeholder="{{description}}"><!--- description -->
-        <input type="text" class="input-form" placeholder="{{price}}"><!-- price -->
-        <a href='#/'>
+        <input type="text" class="input-form" id="description-m" placeholder="{{description}}"><!--- description -->
+        <input type="text" class="input-form" id="price-m" placeholder="{{price}}"><!-- price -->
+        <a href='#/' id="edit">
         <button class=""><span>Edit</span></button></a>
       </form>
     </div>
@@ -73,7 +77,9 @@
 <!--   ADD ANOTHER ITEM  -->
     <a href='#/'>
     <button class= "add-new-app"><span>Add Another</span></button></a>
-    </div>
+
+  </div><!-- end of mainpage -->
+</div><!-- end of container -->
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>

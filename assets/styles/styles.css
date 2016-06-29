@@ -4,7 +4,34 @@
   height: 80%;
   width: 80%;
   border: 2px solid rgba(0, 0, 0, 0.5);
-  border: solid 1px red; }
+  border: solid 1px black; }
+
+/**********************************************/
+/***    GLOBAL FORM  *************************/
+/*******  APPOINTMENTS HOMEPAGE STYLING  ****/
+#mainpage {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  height: 80%;
+  width: 80% px;
+  border: 2px solid black; }
+  #mainpage h2 {
+    padding: .5em 0;
+    margin: 0 .5em .5em;
+    text-align: center;
+    font-size: 2em;
+    color: green; }
+  #mainpage .mainAdmPage {
+    border-bottom: 2px solid grey; }
+    #mainpage .mainAdmPage button {
+      position: relative;
+      width: 4em;
+      height: 4em; }
+    #mainpage .mainAdmPage .link {
+      display: inline-block;
+      float: right;
+      width: 3em;
+      height: 3em; }
 
 /*  SECTIONS  */
 .section {
