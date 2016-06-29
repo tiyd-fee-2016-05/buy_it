@@ -10,12 +10,7 @@
 
   </head>
 
-
-
-  
-
-
-<body>
+  <body>
     <div class="container">
       <a href="#" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 
@@ -30,13 +25,50 @@
       <li><a href="#"></a></li>
       <li><a href="#"></a></li>
       <ul>
+    </header>
 
-    <div class="listItem">
-      <h3>
+    <div class="section group">
+      <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
         <input class="input-form" <a href="#"><img src="" alt=""/></a><!-- image -->
-        <input type="text" class="input-form" placeholder="{{}}"><!--- description -->
-        <input type="text" class="input-form" placeholder="{{}}"><!-- price -->
+      </form>
+      </div>
+
+      <div class="col span_1_of_2">
+        <form class="new-list-form" action="index.html" method="post">
+        <input type="text" class="input-form" placeholder="{{description}}"><!--- description -->
+        <input type="text" class="input-form" placeholder="{{price}}"><!-- price -->
+        <a href='#/new'>
+        <button class=""><span>Price</span></button></a>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div class="section group">
+    <div class="col span_1_of_2">
+    <form class="new-list-form" action="index.html" method="post">
+      <input class="input-form" <a href="#"><img src="" alt=""/></a><!-- image -->
+    </form>
+    </div>
+
+    <div class="col span_1_of_2">
+      <form class="new-list-form" action="index.html" method="post">
+      <input type="text" class="input-form" placeholder="{{description}}"><!--- description -->
+      <input type="text" class="input-form" placeholder="{{price}}"><!--price  -->
+      <a href='#/'>
+      <button class=""><span>Price</span></button></a>
+    </form>
+  </div>
+</div>
+
+    <!-- <div class="listItem">
+      <h3>
+      <form class="new-list-form" action="index.html" method="post">
+        <input class="input-form" <a href="#"><img src="" alt=""/></a>
+        <input type="text" class="input-form" placeholder="{{}}">
+        <input type="text" class="input-form" placeholder="{{}}">
         <a href='#/new'>
         <button class=""><span>Price</span></button></a>
       </form>
@@ -45,30 +77,18 @@
     <div class="listItem">
       <h3>
       <form class="new-list-form" action="index.html" method="post">
-        <input class="input-form" <a href="#"><img src="" alt=""/></a><!-- image -->
-        <input type="text" class="input-form" placeholder="{{}}"><!--- description -->
-        <input type="text" class="input-form" placeholder="{{}}"><!-- price -->
+        <input class="input-form" <a href="#"><img src="" alt=""/></a>
+        <input type="text" class="input-form" placeholder="{{}}">
+        <input type="text" class="input-form" placeholder="{{}}"><
         <a href='#/new'>
         <button class=""><span>Price</span></button></a>
       </form>
-    </div>
-
-    <div class="listItem">
-      <h3>
-      <form class="new-list-form" action="index.html" method="post">
-        <input class="input-form" <a href="#"><img src="" alt=""/></a><!-- image -->
-        <input type="text" class="input-form" placeholder="{{}}"><!--- description -->
-        <input type="text" class="input-form" placeholder="{{}}"><!-- price -->
-        <a href='#/new'>
-        <button class=""><span>Price</span></button></a>
-      </form>
-    </div>
+    </div> -->
 
 
-    <a href='#/new'>
-    <button class="delete-app"><span>Delete</span></button></a>
-    <a href='#/home'>
-    <button class= "save-edit-app"><span>Save</span></button></a>
+
+    <a href='#/'>
+    <button class= "add-new-app"><span>Add Another</span></button></a>
     </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
