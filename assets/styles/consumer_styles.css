@@ -289,14 +289,37 @@ h2 {
   height: 200px; }
 
 .productDetail {
-  width: 100%;
+  width: 80%;
   margin: auto;
   display: flex;
   vertical-align: top; }
 
 .description {
-  margin: auto;
+  text-align: center; }
+
+.addBtn {
+  display: inline-block;
+  border: solid 2px black;
+  cursor: default;
+  float: right;
+  margin-top: 5%;
+  width: 80%;
+  padding: 5%;
+  text-align: center; }
+
+.detailDesc {
+  text-align: right;
   width: 40%;
-  flex: 1; }
+  float: right; }
+
+.detailPrice {
+  font-size: 45px;
+  margin-top: 5%; }
+
+.confirmAlert {
+  display: none; }
+
+.closeConfirm {
+  display: none; }
 
 /*# sourceMappingURL=consumer_styles.css.map */
