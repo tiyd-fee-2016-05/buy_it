@@ -1,37 +1,114 @@
 .container {
   position: relative;
   font-family: "Lato", sans-serif;
-  height: 80%;
-  width: 80%;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  margin: 0em 4em 0em 4em;
   border: solid 1px black; }
 
 /**********************************************/
 /***    GLOBAL FORM  *************************/
-/*******  APPOINTMENTS HOMEPAGE STYLING  ****/
+/*******  MAINPAGE STYLING  ****/
 #mainpage {
   position: relative;
   font-family: "Lato", sans-serif;
-  height: 80%;
-  width: 80% px;
+  height: 100%;
+  width: 100%;
   border: 2px solid black; }
-  #mainpage h2 {
-    padding: .5em 0;
-    margin: 0 .5em .5em;
-    text-align: center;
-    font-size: 2em;
-    color: green; }
   #mainpage .mainAdmPage {
+    background-color: black;
+    padding-top: 3em;
     border-bottom: 2px solid grey; }
     #mainpage .mainAdmPage button {
       position: relative;
-      width: 4em;
-      height: 4em; }
+      width: 4em; }
     #mainpage .mainAdmPage .link {
       display: inline-block;
       float: right;
-      width: 3em;
-      height: 3em; }
+      width: 4em;
+      height: 4em;
+      cursor: pointer; }
+  #mainpage #input-image {
+    margin-left: 2em;
+    width: 10em;
+    height: 10em; }
+  #mainpage #input-description {
+    margin-top: 1.5em;
+    width: 40em;
+    height: 5em; }
+  #mainpage .main-edit {
+    margin-top: 0.5em;
+    width: 40em;
+    height: 3em;
+    border-radius: 5px;
+    background-color: lightblue;
+    cursor: pointer; }
+  #mainpage .add-new-item {
+    border-radius: 5px;
+    margin-left: 45em;
+    width: 20em;
+    height: 3em;
+    cursor: pointer; }
+
+/*********   NEWPAGE STYLING *********/
+#newpage {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black; }
+  #newpage .adminNewPage {
+    padding-top: 3em;
+    margin: 0 .6em .6em;
+    border-bottom: 2px solid grey; }
+    #newpage .adminNewPage #back-button {
+      padding: 0.2em 0.5em;
+      color: grey;
+      border: none;
+      background: none;
+      font-size: 2em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block; }
+    #newpage .adminNewPage button {
+      position: relative;
+      width: 4em; }
+    #newpage .adminNewPage .link {
+      display: inline-block;
+      float: right;
+      width: 4em;
+      height: 4em; }
+
+/****************************************************/
+#editpage {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black; }
+  #editpage .adminEditPage {
+    padding-top: 3em;
+    margin: 0 .6em .6em;
+    border-bottom: 2px solid grey; }
+    #editpage .adminEditPage #back-button {
+      padding: 0.2em 0.5em;
+      color: grey;
+      border: none;
+      background: none;
+      font-size: 2em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block; }
+    #editpage .adminEditPage button {
+      position: relative;
+      width: 4em; }
+    #editpage .adminEditPage .link {
+      display: inline-block;
+      float: right;
+      width: 4em;
+      height: 4em; }
 
 /*  SECTIONS  */
 .section {

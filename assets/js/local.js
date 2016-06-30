@@ -17,7 +17,7 @@ $('.save-item').submit(function(e){
   localStorage.setItem('description', newItem.descripton);
   localStorage.setItem('price', newItem.price);
 
-  
+
   function adding(img, description, price){
       item.push({
         img: img,
@@ -29,5 +29,7 @@ $('.save-item').submit(function(e){
     adding(newItem.img, newItem.description, newItem.price);
     console.log(item);
 
-    $('.input-form').val("");
+    $('.text').val("");
+    $(".price").val("");
+    $(".description").val("");
   });

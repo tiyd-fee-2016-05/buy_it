@@ -16,64 +16,61 @@
 
       <div id="mainpage">
 
-    <h2>MainAdminPage</h2>
-
       <header class="mainAdmPage"><!-- Nav Bar -->
 
       <ul>
       <a href="#/">
-      <button id="logo">Logo</button></a>
+      <img src="#" id="logo">Logo</a>
       <li class="link"><a href="#"></a>
       <button>Cart</button></li>
       <li class="link"><a href="#"></a>
-        <button>Home</button></li>
+      <button>Home</button></li>
       <li class="link"><a href="#"></a>
-        <button>Consummer</button></li>
+      <button>Buyer</button></li>
       <ul>
     </header>
 
 
 <!--  IMAGE -->
-    <div class="section group">
-      <!-- <a href="#/editpage"> -->
-      <div class="col span_1_of_2">
-        <!-- <a href="#/editpage"> -->
-      <form class="new-list-form" action="index.html" method="post">
-        <input class="input-form" id="img" placeholder="{{img}}" ng-model="img">
-        <img src="" alt="" /></a><!-- image -->
-      </form>
-      </div>
+    <div class="section group"><!-- row 1 -->
+         <!-- <a href="#/editpage"> -->
+        <div class="col span_1_of_2">
+          <form class="new-list-form" action="index.html" method="post">
+          <a href='#/'>
+          <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
+          </form>
+        </div>
 
 
 <!--    DESCRIPTION AND PRICE -->
       <div class="col span_1_of_2">
         <form class="new-list-form" action="index.html" method="post">
-        <input type="text" class="input-form" id="description-m" placeholder="{{description}}" ng-model="description"><!--- description -->
-        <input type="text" class="input-form" id="price-m" placeholder="{{price}}" ng-model="price"><!-- price -->
+        <input type="text"  id="input-description" placeholder="{{description}}" ng-model="description">
+        </form>
         <a href='#/editpage'>
         <button class="main-edit"><span>Edit</span></button></a>
-      </form>
     </div>
   </div>
+<!---   end of row 1 --->
 
 
-<!--   AN EXTRA ROW.  I DON'T THINK WE ARE GOING TO NEED TO HARD CODE AN ADDITIONAL ROW, THOUGH  -->
-  <div class="section group">
-    <!-- <a href="#/editpage"> -->
+
+  <!-- AN EXTRA ROW.  I DON'T THINK WE ARE GOING TO NEED TO HARD CODE AN ADDITIONAL ROW, THOUGH  -->
+   <div class="section group">
+    <!-- <a href="#/editpage">  -->
     <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
-      <input class="input-form" id='img' placeholder="{{img}}" ng-model="img">
-      <img src="" alt="" /></a><!-- image -->
+      <a href='#/'>
+      <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
     </form>
     </div>
 
     <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
-      <input type="text" class="input-form" placeholder="{{description}}" ng-model="descripton"><!--- description -->
-      <input type="text" class="input-form" placeholder="{{price}}" ng-model="price"><!--price  -->
+      <input type="text" id="input-description" placeholder="{{description}}" ng-model="descripton">
+      </form>
       <a href='#/editpage'>
-      <button class=""><span>Edit</span></button></a>
-    </form>
+      <button class="main-edit"><span>Edit</span></button></a>
   </div>
 </div>
 

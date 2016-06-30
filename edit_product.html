@@ -16,17 +16,19 @@
 
     <div id="editpage">
 
-    <h2>A-Edit-Page</h2>
-
 
 <!--    HEADER  -->
       <header class="adminEditPage"><!--- Nav Bar -->
       <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
         <ul>
-        <button>Logo</button>
-        <li><a href="#"></a>Cart</li>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>Buyer</li>
+          <a href="#/">
+          <img src="#" id="logo">Logo</a>
+          <li class="link"><a href="#"></a>
+            <button>Cart</button></li>
+          <li class="link"><a href="#"></a>
+            <button>Home</button></li>
+          <li class="link"><a href="#"></a>
+            <button>Buyer</button></li>
         <ul>
     </header>
 
@@ -37,9 +39,8 @@
     <div class="section group">
       <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
-        <input type="input-form" id="input-image" placeholder="{{img}}">
         <a href="#">
-        <img src="" alt=""/></a><!-- image -->
+        <img src="{{img}}" id="input-image" ng-show="editing" type="image" ng-model="image"/>Photo</a><!-- image -->
       </form>
      </div>
 
@@ -49,8 +50,8 @@
       <ul id="admin-edit">
           <li class="admin-edit-li">
             <!-- <a href="#/"> -->
-            <input type='input-form'  id="input-price" placeholder"{{price}}"/>
-            <input type="input-form"  id="input-description" placeholder="{{description}}"/>
+            <input id="input-price" ng-show="editing" type="price" placeholder"{{price}}" ng-model="price"/>
+            <input id="input-description" ng-show="editing" type="text"  placeholder="{{description}}" ng-model="description"/>
           </div>
           </a>
         </li>
