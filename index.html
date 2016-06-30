@@ -3,35 +3,15 @@
 
 <head>
     <meta charset="utf-8">
+    <title>buy_it</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/styles/consumer_styles.css">
-    <title>View Products</title>
 </head>
 
 <body>
-
-<!--Nav bar-->
-    <div class="topWords">
-        <div class="topPad">
-        </div>
-        <span class="topLinks">
-      <button class = "nav"><h3>cart</h3></button>
-      <button class = "nav"><h3>admin</h3></button>
-      <button class = "nav"><h3>home</h3></button>
-      <h2>buy_it</h2>
-    </span>
-    </div>
-
-<!--Product details-->
-    <div class="wrapper">
-      <div class="productDetail">
-        <div class ="productDetail-pic">
-          <img class="detailPic" src="assets/images/img_placeholder.gif">
-          </>
-          <div class="description">Information about the stuff goes here
-          </div>
-
+    <div ng-app="app">
+        <ng-view></ng-view>
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
