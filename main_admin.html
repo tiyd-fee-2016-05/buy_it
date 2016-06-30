@@ -24,22 +24,22 @@
       <a href="#/">
       <button id="logo">Logo</button></a>
       <li class="link"><a href="#"></a>
-      <button>link</button></li>
+      <button>Cart</button></li>
       <li class="link"><a href="#"></a>
-        <button>link</button></li>
+        <button>Home</button></li>
       <li class="link"><a href="#"></a>
-        <button>link</button></li>
+        <button>Consummer</button></li>
       <ul>
     </header>
 
 
 <!--  IMAGE -->
     <div class="section group">
-      <a href="#/editpage">
+      <!-- <a href="#/editpage"> -->
       <div class="col span_1_of_2">
         <!-- <a href="#/editpage"> -->
       <form class="new-list-form" action="index.html" method="post">
-        <input class="input-form" id="img" placeholder="{{img}}">
+        <input class="input-form" id="img" placeholder="{{img}}" ng-model="img">
         <img src="" alt="" /></a><!-- image -->
       </form>
       </div>
@@ -48,8 +48,8 @@
 <!--    DESCRIPTION AND PRICE -->
       <div class="col span_1_of_2">
         <form class="new-list-form" action="index.html" method="post">
-        <input type="text" class="input-form" id="description-m" placeholder="{{description}}"><!--- description -->
-        <input type="text" class="input-form" id="price-m" placeholder="{{price}}"><!-- price -->
+        <input type="text" class="input-form" id="description-m" placeholder="{{description}}" ng-model="description"><!--- description -->
+        <input type="text" class="input-form" id="price-m" placeholder="{{price}}" ng-model="price"><!-- price -->
         <a href='#/editpage'>
         <button class="main-edit"><span>Edit</span></button></a>
       </form>
@@ -62,15 +62,15 @@
     <!-- <a href="#/editpage"> -->
     <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
-      <input class="input-form" id='img' placeholder="{{img}}">
+      <input class="input-form" id='img' placeholder="{{img}}" ng-model="img">
       <img src="" alt="" /></a><!-- image -->
     </form>
     </div>
 
     <div class="col span_1_of_2">
       <form class="new-list-form" action="index.html" method="post">
-      <input type="text" class="input-form" placeholder="{{description}}"><!--- description -->
-      <input type="text" class="input-form" placeholder="{{price}}"><!--price  -->
+      <input type="text" class="input-form" placeholder="{{description}}" ng-model="descripton"><!--- description -->
+      <input type="text" class="input-form" placeholder="{{price}}" ng-model="price"><!--price  -->
       <a href='#/editpage'>
       <button class=""><span>Edit</span></button></a>
     </form>

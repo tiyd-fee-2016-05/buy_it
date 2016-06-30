@@ -2,7 +2,8 @@ var items = [];
 
 $('.save-item').submit(function(e){
   e.preventDefault();
-  //LOG THE INFORMATION
+
+
   var newItem = {
     img: $('#input-img').val(),
     descriptiont: $('#input-description').val(),
@@ -13,4 +14,3 @@ $('.save-item').submit(function(e){
   localStorage.setItem('img', newInput.img);
   localStorage.setItem('description', newInput.descripton);
   localStorage.setItem('price', newInput.price);
-  

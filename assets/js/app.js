@@ -6,17 +6,26 @@ Admin.config(function($routeProvider) {
   $routeProvider
     .when('/mainpage', {
       templateUrl: 'main_admin.html',
-      // controller: 'appAdmin'
+      controller: 'mainController'
     })
     .when('/editpage', {//portal button
       templateUrl: 'edit_product.html',
-      // controller: 'appAdmin'
+      controller: 'mainController'
     })
     .when('/newpage', {
       templateUrl: 'add_new.html',
-      // controller: 'appAdmin'
+      controller: 'mainController'
     })
     .otherwise({
       redirectTo: '/mainpage'
     });
+});
+
+Admin.controller('mainController', function($scope){
+  $scope.data = [{
+    img: localStorage.getItem('img'),
+    description: localStorage.getItem('description'),
+    price: localStorage.getItem('price')
+  }];
+
 });
