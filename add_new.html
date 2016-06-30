@@ -15,26 +15,32 @@
 
     <div id="newpage">
 
+
+
     <!--    HEADER  -->
           <header class="adminNewPage"><!--- Nav Bar -->
             <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
+              <h1>Less Is More</h1>
             <ul>
-            <a href="#/">
-            <img src="#" id="logo">Logo</a>
-            <li class="link"><a href="#" ></a>Cart</li><!-- could be buttons -->
-            <li class="link"><a href="#/mainpage"></a>Home</li>
-            <li class="link"><a href="#"></a>Buyer</li>
+              <a href="#/">
+              <img src="#" id="logo"></a>
+              <li class="link"><a href="#"></a>
+              <button>Cart</button></li>
+              <li class="link"><a href="#"></a>
+              <button>Home</button></li>
+              <li class="link"><a href="#"></a>
+              <button>Buyer</button></li>
             <ul>
         </header>
 
         <!--   IMAGE  -->
             <div class="section group">
               <div class="col span_1_of_2">
-              <form class="new-list-form" action="index.html" method="post">
-                <!-- <a href="#"> -->
-                <img src="{{img}}" id="input-image" type="image" ng-model="image"/></a><!-- image -->
-              </form>
-             </div>
+                <form class="new-list-form" action="index.html" method="post">
+                <a href='#/'>
+                <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
+                </form>
+              </div>
 
 
         <!--  PRICE AND DESCRIPTION -->
@@ -43,14 +49,16 @@
                   <li class="admin-new-li">
                     <!-- <a href="#/"> -->
                     <input type="price"  id="input-price" placeholder"{{price}}" ng-model="price"/>
+                    <h3>Price</h3>
                     <input type="text" id="input-description" placeholder="{{description}}" ng-model="description"/>
+                    <h3>Description</h3>
                   </div>
-                  </a>
+                  <!-- </a> -->
                 </li>
 
                 <!-- <li class='new-btn'> -->
                   <a href="#/mainpage">
-                  <button>Save</button>
+                  <button class="new-page-btn">Save</button>
                 </a>
               <!-- </li> -->
             </ul>

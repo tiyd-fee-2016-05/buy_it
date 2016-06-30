@@ -8,6 +8,13 @@
 
 /**********************************************/
 /***    GLOBAL FORM  *************************/
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  font-family: "Lato", Verdana, sans-serif; }
+
 /*******  MAINPAGE STYLING  ****/
 #mainpage {
   position: relative;
@@ -17,6 +24,7 @@
   border: 2px solid black; }
   #mainpage .mainAdmPage {
     background-color: black;
+    /**  header nav-bar color  **/
     padding-top: 3em;
     border-bottom: 2px solid grey; }
     #mainpage .mainAdmPage button {
@@ -45,7 +53,7 @@
     cursor: pointer; }
   #mainpage .add-new-item {
     border-radius: 5px;
-    margin-left: 45em;
+    margin-left: 50em;
     width: 20em;
     height: 3em;
     cursor: pointer; }
@@ -59,8 +67,9 @@
   border: 2px solid black; }
   #newpage .adminNewPage {
     padding-top: 3em;
-    margin: 0 .6em .6em;
-    border-bottom: 2px solid grey; }
+    border-bottom: 2px solid grey;
+    background-color: darkgrey;
+    /****  header/nav-bar color **/ }
     #newpage .adminNewPage #back-button {
       padding: 0.2em 0.5em;
       color: grey;
@@ -78,7 +87,26 @@
       display: inline-block;
       float: right;
       width: 4em;
-      height: 4em; }
+      height: 4em;
+      cursor: pointer; }
+  #newpage #input-image {
+    margin-left: 2em;
+    width: 10em;
+    height: 10em; }
+  #newpage #input-price {
+    margin-top: 2em;
+    width: 10em;
+    height: 5em; }
+  #newpage #input-description {
+    margin-top: 1.5em;
+    width: 40em;
+    height: 5em; }
+  #newpage .new-page-btn {
+    border-radius: 5px;
+    margin-left: 45em;
+    width: 20em;
+    height: 3em;
+    cursor: pointer; }
 
 /****************************************************/
 #editpage {
@@ -89,8 +117,9 @@
   border: 2px solid black; }
   #editpage .adminEditPage {
     padding-top: 3em;
-    margin: 0 .6em .6em;
-    border-bottom: 2px solid grey; }
+    border-bottom: 2px solid grey;
+    background-color: #90C9D4;
+    /** header nav-bar color  **/ }
     #editpage .adminEditPage #back-button {
       padding: 0.2em 0.5em;
       color: grey;
@@ -109,6 +138,24 @@
       float: right;
       width: 4em;
       height: 4em; }
+  #editpage #input-image {
+    margin-left: 2em;
+    width: 10em;
+    height: 10em; }
+  #editpage #input-price {
+    margin-top: 2em;
+    width: 10em;
+    height: 5em; }
+  #editpage #input-description {
+    margin-top: 1.5em;
+    width: 40em;
+    height: 5em; }
+  #editpage .save-item-btn {
+    border-radius: 5px;
+    margin-left: 45em;
+    width: 20em;
+    height: 3em;
+    cursor: pointer; }
 
 /*  SECTIONS  */
 .section {
