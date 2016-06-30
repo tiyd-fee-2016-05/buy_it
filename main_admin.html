@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
@@ -10,7 +11,7 @@
 
   </head>
 
-  <body>
+  <body> -->
     <div class="container">
 
       <div id="mainpage">
@@ -34,10 +35,12 @@
 
 <!--  IMAGE -->
     <div class="section group">
+      <a href="#/editpage">
       <div class="col span_1_of_2">
+        <!-- <a href="#/editpage"> -->
       <form class="new-list-form" action="index.html" method="post">
-        <input class="input-form">
-        <a href="#" id="img"><img src="" alt=""/></a><!-- image -->
+        <input class="input-form" id="img" placeholder="{{img}}">
+        <img src="" alt="" /></a><!-- image -->
       </form>
       </div>
 
@@ -47,8 +50,8 @@
         <form class="new-list-form" action="index.html" method="post">
         <input type="text" class="input-form" id="description-m" placeholder="{{description}}"><!--- description -->
         <input type="text" class="input-form" id="price-m" placeholder="{{price}}"><!-- price -->
-        <a href='#/' id="edit">
-        <button class=""><span>Edit</span></button></a>
+        <a href='#/editpage'>
+        <button class="main-edit"><span>Edit</span></button></a>
       </form>
     </div>
   </div>
@@ -56,10 +59,11 @@
 
 <!--   AN EXTRA ROW.  I DON'T THINK WE ARE GOING TO NEED TO HARD CODE AN ADDITIONAL ROW, THOUGH  -->
   <div class="section group">
+    <!-- <a href="#/editpage"> -->
     <div class="col span_1_of_2">
-    <form class="new-list-form" action="index.html" method="post">
-      <input class="input-form"
-        <a href="#"><img src="" alt=""/></a><!-- image -->
+      <form class="new-list-form" action="index.html" method="post">
+      <input class="input-form" id='img' placeholder="{{img}}">
+      <img src="" alt="" /></a><!-- image -->
     </form>
     </div>
 
@@ -67,7 +71,7 @@
       <form class="new-list-form" action="index.html" method="post">
       <input type="text" class="input-form" placeholder="{{description}}"><!--- description -->
       <input type="text" class="input-form" placeholder="{{price}}"><!--price  -->
-      <a href='#/'>
+      <a href='#/editpage'>
       <button class=""><span>Edit</span></button></a>
     </form>
   </div>
@@ -75,16 +79,16 @@
 
 
 <!--   ADD ANOTHER ITEM  -->
-    <a href='#/'>
-    <button class= "add-new-app"><span>Add Another</span></button></a>
+    <a href='#/newpage'>
+    <button class="add-new-item"><span>Add Another</span></button></a>
 
   </div><!-- end of mainpage -->
 </div><!-- end of container -->
-
+<!--
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script> -->
 
     <!-- <script src="assets/js/app.js/"></script> -->
     <!-- <script src="assets/js/controller.js"></script> -->
-    </body>
-  </html>
+    <!-- </body>
+  </html> -->
