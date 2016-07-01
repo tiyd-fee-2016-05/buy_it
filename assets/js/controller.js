@@ -6,3 +6,7 @@
 //   }];
 //
 // });
+
+
+Admin.controller('mainController', [ '$http', '$scope', function($http, $scope){
+  $scope.message = "SCOPE IS WORKING";

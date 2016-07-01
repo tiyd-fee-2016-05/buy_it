@@ -27,9 +27,6 @@ h1 {
     /**  header nav-bar color  **/
     padding-top: 3em;
     border-bottom: 2px solid grey; }
-    #mainpage .mainAdmPage button {
-      position: relative;
-      width: 4em; }
     #mainpage .mainAdmPage .link {
       display: inline-block;
       float: right;
@@ -80,9 +77,6 @@ h1 {
       top: 0;
       left: 0;
       display: inline-block; }
-    #newpage .adminNewPage button {
-      position: relative;
-      width: 4em; }
     #newpage .adminNewPage .link {
       display: inline-block;
       float: right;
@@ -130,9 +124,6 @@ h1 {
       top: 0;
       left: 0;
       display: inline-block; }
-    #editpage .adminEditPage button {
-      position: relative;
-      width: 4em; }
     #editpage .adminEditPage .link {
       display: inline-block;
       float: right;
