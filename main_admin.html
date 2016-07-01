@@ -23,15 +23,15 @@
 
       <ul>
       <a href="#/">
-      <img src="#" id="logo"></a>
+      <img src="#"></a>
 
-      <a href="#" id="cart">
+      <a href="#">
       <li class="link">Cart</li></a>
       <!-- <button>Cart</button></li> -->
-      <a href="#" id="buyer">
+      <a href="#">
       <li class="link"><a href="#">Buyer</li></a>
       <!-- <button>Buyer</button></li> -->
-      <a href="#" id="home">
+      <a href="#">
       <li class="link"><a href="#">Home</li></a>
       <!-- <button>Homer</button></li> -->
       <ul>
@@ -39,25 +39,23 @@
 
 
 <!--  IMAGE -->
-    <div class="section group"><!-- row 1 -->
-         <!-- <a href="#/editpage"> -->
-        <div class="col span_1_of_2">
-          <form class="new-list-form" action="index.html" method="post">
-          <a href='#/'>
-          <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
-          </form>
-        </div>
+<div class="section group">
+ <!-- <a href="#/editpage">  -->
+     <div class="col span_1_of_2">
+       <!-- <form class="new-list-form" action="index.html" method="post"> -->
+       <a href='#/'>
+       <img src="" id="input-image" type="image" placeholder="{{item.img}"ng-model="image"/></a>
+     <!-- </form> -->
+     </div>
 
-
-<!--    DESCRIPTION AND PRICE -->
-      <div class="col span_1_of_2">
-        <form class="new-list-form" action="index.html" method="post">
-        <input type="text"  id="input-description" placeholder="{{description}}" ng-model="description">
-        </form>
-        <a href='#/editpage'>
-        <button class="main-edit"><span>Edit</span></button></a>
+     <div class="col span_1_of_2">
+       <!-- <form class="new-list-form" action="index.html" method="post"> -->
+       <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descripton">
+       <!-- </form> -->
+       <a href='#/editpage'>
+       <button class="main-edit"><span>Edit</span></button></a>
     </div>
-  </div>
+</div>
 <!---   end of row 1 --->
 
 
@@ -66,16 +64,16 @@
    <div class="section group">
     <!-- <a href="#/editpage">  -->
     <div class="col span_1_of_2">
-      <form class="new-list-form" action="index.html" method="post">
+      <!-- <form class="new-list-form" action="index.html" method="post"> -->
       <a href='#/'>
-      <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
-    </form>
+      <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
+    <!-- </form> -->
     </div>
 
     <div class="col span_1_of_2">
-      <form class="new-list-form" action="index.html" method="post">
-      <input type="text" id="input-description" placeholder="{{description}}" ng-model="descripton">
-      </form>
+      <!-- <form class="new-list-form" action="index.html" method="post"> -->
+      <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descripton">
+      <!-- </form> -->
       <a href='#/editpage'>
       <button class="main-edit"><span>Edit</span></button></a>
   </div>

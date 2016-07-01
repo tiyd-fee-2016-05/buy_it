@@ -39,7 +39,8 @@ h1{
       // height: 4em;
       // }
       .link{
-
+        text-decoration: none;
+        text-decoration-color: white;
         display: inline-block;
         float: right;
         width: 4em;
@@ -120,16 +121,20 @@ h1{
       margin-left: 2em;
       width: 10em;
       height: 10em;
+
+        }
+        .name{
+          margin-left: 20em;
         }
     #input-price{
-      margin-top: 2em;
-      width: 10em;
-      height: 5em;
+      margin-top: 0em;
+      width: 6em;
+      height: 2em;
         }
     #input-description{
-      margin-top: 1.5em;
-      width: 40em;
-      height: 5em;
+      margin-top:.5em;
+      width: 23em;
+      height: 2em;
         }
     .new-page-btn{
       border-radius: 5px;
@@ -190,8 +195,11 @@ h1{
         }
     #input-description{
       margin-top: 1.5em;
-      width: 40em;
-      height: 5em;
+      width: 23em;
+      height: 4em;
+        h3{
+
+        }
         }
         .save-item-btn{
           border-radius: 5px;

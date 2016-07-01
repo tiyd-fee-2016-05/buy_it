@@ -24,12 +24,15 @@
             <ul>
               <a href="#/">
               <img src="#" id="logo"></a>
-              <li class="link"><a href="#"></a>
-              <button>Cart</button></li>
-              <li class="link"><a href="#"></a>
-              <button>Home</button></li>
-              <li class="link"><a href="#"></a>
-              <button>Buyer</button></li>
+              <a href="#">
+              <li class="link">Cart</a></li>
+              <!-- <button>Cart</button></li> -->
+              <a href="#">
+              <li class="link">Person</a></li>
+              <!-- <button>Home</button></li> -->
+              <a href="#">
+              <li class="link">Home</a></li>
+              <!-- <button>Buyer</button></li> -->
             <ul>
         </header>
 
@@ -38,7 +41,10 @@
               <div class="col span_1_of_2">
                 <form class="new-list-form" action="index.html" method="post">
                 <a href='#/'>
-                <img src="{{img}" id="input-image" type="image" ng-model="image"/></a>
+                <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
+                <!-- <a href="#/"> -->
+                <h5>Name</h5>
+                <div class="name"  placeholder"{{item.name}}" ng-model="name"></div>
                 </form>
               </div>
 
@@ -48,9 +54,10 @@
               <ul id="admin-new">
                   <li class="admin-new-li">
                     <!-- <a href="#/"> -->
-                    <input type="price"  id="input-price" placeholder"{{price}}" ng-model="price"/>
+                    <input type="price"  id="input-price" placeholder"{{item.price}}" ng-model="price"/>
                     <h3>Price</h3>
-                    <input type="text" id="input-description" placeholder="{{description}}" ng-model="description"/>
+                    <!-- <a href="#/"> -->
+                  <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="description"/>
                     <h3>Description</h3>
                   </div>
                   <!-- </a> -->
