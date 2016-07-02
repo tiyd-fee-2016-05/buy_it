@@ -1,0 +1,64 @@
+{
+  "allBees": [
+    {
+      "id": 0,
+      "name": "Mr. Pollen",
+      "type": "Carniolan",
+      "price": 25,
+      "desc": "Mr. Pollen's family hails from the European continent, and his laid back perosnality makes him fun to unwind with.",
+      "image": "assets/images/mr_pollen.jpg",
+      "reviews": [
+        {
+          "revName": "Burt",
+          "text": "Mr. Pollen has made a wonderful little friend! He's smiley and likes watching the same movies as me",
+          "stars": 5
+        }
+      ]
+    },
+        {
+          "id": 1,
+          "name": "Strawberry Beauty",
+          "type": "Russian",
+          "price": 25,
+          "desc": "This Southern belle is as smart as she is beautiful. She'll keep you guessing with her inquisitive nature and expansive trivia knowledge.",
+          "image": "assets/images/strawberry_beauty.jpg",
+          "reviews": [
+            {
+              "revName": "bee_lady64",
+              "text": "Strawberry Beauty is a great friend to have around. She can be kind of a know-it-all, but I can't hold that against her.",
+              "stars": 4
+            }
+          ]
+        },
+            {
+              "id": 2,
+              "name": "Sean",
+              "type": "Buckfast",
+              "price": 25,
+              "desc": "This Egnlish gentleman is a fine gem for anyone who enjoys afternoon tea and discussing Medeival politics.",
+              "image": "assets/images/buckfastbee_sean.jpg",
+              "reviews": [
+                {
+                  "revName": "Karen",
+                  "text": "Sean's kind of a jerk, tbh",
+                  "stars": 2
+                }
+              ]
+            },
+                {
+                  "id": 3,
+                  "name": "Dusty Legs",
+                  "type": "German",
+                  "price": 25,
+                  "desc": "Ol' Dusty Legs does best as the only bee in the friend group. He can get a little nervous and likes people who will take time to listen to his life's stories",
+                  "image": "assets/images/mr_pollen.png",
+                  "reviews": [
+                    {
+                      "revName": "Morty",
+                      "text": "DL is a really nice guy if you give him a chance. He can get a little cranky from time to time, so just make sure he gets plenty of sleep.",
+                      "stars": 4
+                    }
+                  ]
+                }
+              ]
+            }
