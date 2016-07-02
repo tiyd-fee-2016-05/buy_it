@@ -37,15 +37,16 @@
         </header>
 
         <!--   IMAGE  -->
+          <div ng-repeat-start="item in items">
             <div class="section group">
               <div class="col span_1_of_2">
-                <form class="new-list-form" action="index.html" method="post">
+                <!-- <form class="new-list-form" action="index.html" method="post"> -->
                 <a href='#/'>
                 <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
                 <!-- <a href="#/"> -->
                 <h5>Name</h5>
                 <div class="name"  placeholder"{{item.name}}" ng-model="name"></div>
-                </form>
+                <!-- </form> -->
               </div>
 
 
@@ -54,7 +55,7 @@
               <ul id="admin-new">
                   <li class="admin-new-li">
                     <!-- <a href="#/"> -->
-                    <input type="price"  id="input-price" placeholder"{{item.price}}" ng-model="price"/>
+                    <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="price"/>
                     <h3>Price</h3>
                     <!-- <a href="#/"> -->
                   <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="description"/>
@@ -63,9 +64,11 @@
                   <!-- </a> -->
                 </li>
 
+
+
                 <!-- <li class='new-btn'> -->
                   <a href="#/mainpage">
-                  <button class="new-page-btn">Save</button>
+                  <button><a href ng-click="addItem()" class="new-page-btn">Save</button></a>
                 </a>
               <!-- </li> -->
             </ul>

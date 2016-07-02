@@ -2,23 +2,23 @@
   "item": [
     {
       "id": 0,
-      "name": "Jem",
-      "price": "$4",
-      "description": "Black and Yellow",
-      "img": ""
+      "name": "AuntBee.jpg",
+      "price": "$priceless",
+      "description": "A stand-up gal",
+      "img": "AuntBee.jpg"
     },
     {
       "id": 1,
-      "name": "",
-      "price": "",
-      "description": "",
-      "img": ""
+      "name": "Bev",
+      "price": "$priceless",
+      "description": "Just outside his comfort zone",
+      "img": "Bev.jpg"
     },
     {
       "id": 2,
-      "name": "",
-      "price": "",
-      "description": "",
+      "name": "Sue",
+      "price": "$pricless",
+      "description": "You can't keep away from run-around Sue",
       "img": ""
     },
     {

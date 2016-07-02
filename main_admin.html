@@ -39,45 +39,52 @@
 
 
 <!--  IMAGE -->
+<div ng-repeat-start="item in items">
 <div class="section group">
  <!-- <a href="#/editpage">  -->
+ <!-- <div ng-repeat="item in items"> -->
      <div class="col span_1_of_2">
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
        <a href='#/'>
-       <img src="" id="input-image" type="image" placeholder="{{item.img}"ng-model="image"/></a>
+
+       <img src="{{item.image}}" id="input-image" type="text" ng-model="image"/>
+       <h5>Name</h5>
+       <div class="name"  placeholder"{{item.name}}" ng-model="name"></div>
      <!-- </form> -->
      </div>
 
      <div class="col span_1_of_2">
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
-       <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descripton">
+       <input type="text"  id="input-description" placeholder="{{item.description}}" ng-model="descripton">
        <!-- </form> -->
        <a href='#/editpage'>
        <button class="main-edit"><span>Edit</span></button></a>
-    </div>
+
+    </div ng-repeat-end>
+  <!-- </div> -->
 </div>
 <!---   end of row 1 --->
 
 
 
   <!-- AN EXTRA ROW.  I DON'T THINK WE ARE GOING TO NEED TO HARD CODE AN ADDITIONAL ROW, THOUGH  -->
-   <div class="section group">
+   <!-- <div class="section group"> -->
     <!-- <a href="#/editpage">  -->
-    <div class="col span_1_of_2">
+    <!-- <div class="col span_1_of_2"> -->
       <!-- <form class="new-list-form" action="index.html" method="post"> -->
-      <a href='#/'>
-      <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
+      <!-- <a href='#/'> -->
+      <!-- <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a> -->
     <!-- </form> -->
-    </div>
+    <!-- </div> -->
 
-    <div class="col span_1_of_2">
+    <!-- <div class="col span_1_of_2"> -->
       <!-- <form class="new-list-form" action="index.html" method="post"> -->
-      <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descripton">
+      <!-- <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descripton"> -->
       <!-- </form> -->
-      <a href='#/editpage'>
-      <button class="main-edit"><span>Edit</span></button></a>
-  </div>
-</div>
+      <!-- <a href='#/editpage'> -->
+      <!-- <button class="main-edit"><span>Edit</span></button></a> -->
+  <!-- </div> -->
+<!-- </div> -->
 
 
 <!--   ADD ANOTHER ITEM  -->
