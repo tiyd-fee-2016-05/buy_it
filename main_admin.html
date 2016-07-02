@@ -45,11 +45,11 @@
  <!-- <div ng-repeat="item in items"> -->
      <div class="col span_1_of_2">
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
-       <a href='#/'>
+       <!-- <a href='#/'> -->
 
-       <img src="{{item.image}}" id="input-image" type="image" ng-model="imageItem"/>
-       <h5>Name</h5>
-       <div class="name"  placeholder"{{item.name}}" ng-model="nameItem"></div>
+       <img ng-src="{{item.img}}" id="input-image" type="image" ng-model="imageItem"/>
+       <h5>{{item.name}}</h5>
+       <div class="name"  ng-model="nameItem"></div>
      <!-- </form> -->
      </div>
 

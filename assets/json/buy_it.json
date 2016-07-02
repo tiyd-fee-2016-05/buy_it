@@ -1,24 +1,97 @@
-{"item": [
-  {
-    "id": 0,
-    "name": "AuntBee.jpg",
-    "price": "$priceless",
-    "description": "A stand-up gal",
-    "img": "AuntBee.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Bev",
-    "price": "$priceless",
-    "description": "Just outside his comfort zone",
-    "img": "Bev.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Sue",
-    "price": "$pricless",
-    "description": "You can't keep away from run-around Sue",
-    "img": ""
-  }
-
-  ]}
+{
+  "item": [
+    {
+      "id": 0,
+      "name": "AuntBee",
+      "price": "$priceless",
+      "description": "A stand-up gal",
+      "img": "assets/img/AuntBee.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Bev",
+      "price": "$priceless",
+      "description": "Just outside his comfort zone",
+      "img": "Bev.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sue",
+      "price": "$pricless",
+      "description": "You can't keep away from run-around Sue",
+      "img": ""
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    }
+  ]
+}

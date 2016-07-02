@@ -38,13 +38,13 @@
 
         <!--   IMAGE  -->
           <!-- <div ng-submit=()> -->
-        <div ng-repeat-start="item in items">
+        <div ng-repeat="item in items">
             <div class="section group">
 
               <div class="col span_1_of_2">
                 <form ng-submit="submit()">
                 <a href='#/'>
-                <img src"{{item.img}}" id="input-image" ng-model="imageItem"/></a>
+                <img ng-src"{{item.img}}" id="input-image" ng-model="imageItem"/></a>
                 <!-- <a href="#/"> -->
                 <h5>Name</h5>
                 <div id="name"  placeholder="{{item.name}}" ng-model="nameItem"></div>
