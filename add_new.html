@@ -20,7 +20,7 @@
     <!--    HEADER  -->
           <header class="adminNewPage"><!--- Nav Bar -->
             <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
-              <h1>Less Is More</h1>
+              <h1>BeeFF</h1>
             <ul>
               <a href="#/">
               <img src="#" id="logo"></a>
@@ -43,11 +43,11 @@
 
               <div class="col span_1_of_2">
                 <form ng-submit="submit()">
-                <a href='#/'>
+                <!-- <a href='#/'> -->
                 <img ng-src"{{item.img}}" id="input-image" ng-model="imageItem"/></a>
                 <!-- <a href="#/"> -->
-                <h5>Name</h5>
-                <div id="name"  placeholder="{{item.name}}" ng-model="nameItem"></div>
+                <h5>{{item.name}}</h5>
+                <div class="name"  ng-model="nameItem"></div>
                 </form>
 
               </div>
@@ -60,7 +60,7 @@
                 Add New Item:
                   <!-- <li class="admin-new-li"> -->
                     <!-- <a href="#/"> -->
-                    <input type="number"  id="input-price" placeholder="{{item.price|currency}}" ng-model="priceItem"/>
+                    <input type="price"  id="input-price" placeholder="{{item.price|currency}}" ng-model="priceItem"/>
 
                     <!-- <a href="#/"> -->
                   <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
@@ -70,18 +70,14 @@
                   <!-- </a> -->
                 <!-- </li> -->
 
-
-
-
+                <div class='new-btn'>
+                <a href="#/mainpage">
+                <button class="new-page-btn">Save</button></a>
+              </div>
             </div>
         </div>
 
 
-              <div class='new-btn'>
-                <a href="#/mainpage">
-                <button class="new-page-btn">Save</button></a>
-
-              </div>
 
 
 

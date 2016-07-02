@@ -27,18 +27,24 @@ h1 {
     /**  header nav-bar color  **/
     padding-top: 3em;
     border-bottom: 2px solid grey; }
-    #mainpage .mainAdmPage .link {
+    #mainpage .mainAdmPage .header {
+      background-color: grey;
+      height: 3em; }
+    #mainpage .mainAdmPage .link a {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 25px;
       text-decoration: none;
-      text-decoration-color: white;
+      color: white;
       display: inline-block;
-      float: right;
+      float: left;
       width: 4em;
-      height: 4em;
+      height: 6em;
       cursor: pointer; }
   #mainpage #input-image {
     margin-left: 2em;
-    width: 10em;
-    height: 10em; }
+    width: 20em;
+    height: 20em; }
   #mainpage #input-description {
     margin-top: 1.5em;
     width: 40em;

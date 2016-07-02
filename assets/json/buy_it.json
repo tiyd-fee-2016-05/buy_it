@@ -12,14 +12,14 @@
       "name": "Bev",
       "price": "$priceless",
       "description": "Just outside his comfort zone",
-      "img": "Bev.jpg"
+      "img": "assets/img/Bev.jpg"
     },
     {
       "id": 2,
       "name": "Sue",
-      "price": "$pricless",
+      "price": "$5",
       "description": "You can't keep away from run-around Sue",
-      "img": ""
+      "img": "assets/img/Sue.jpg"
     },
     {
       "id": 3
@@ -77,21 +77,6 @@
     },
     {
       "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
     }
   ]
 }

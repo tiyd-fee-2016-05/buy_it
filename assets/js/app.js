@@ -48,12 +48,13 @@ Admin.config(function($routeProvider) {
 
 
     });
-
+//ng-click post(function)//
     $http.post('http://localhost:3005/item/').success(function(data) {
       $scope.item = data;
 
 
-      console.log(data);
+      // console.log(data);
+      console.log($scope.items);
     });
 
 

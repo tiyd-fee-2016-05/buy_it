@@ -21,7 +21,7 @@
 <!--    HEADER  -->
       <header class="adminEditPage"><!--- Nav Bar -->
       <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
-      <h1>Less Is More</h1>
+      <h1>BeeFF</h1>
         <ul>
           <a href="#/">
           <img src="#" id="logo"></a>
@@ -41,38 +41,42 @@
 
 
 <!--   IMAGE  -->
+<div ng-repeat="item in items">
     <div class="section group">
+
       <div class="col span_1_of_2">
-      <form class="new-list-form" action="index.html" method="post">
-        <a href='#/'>
-        <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
+        <form ng-submit="submit()">
+        <!-- <a href='#/'> -->
+        <img ng-src="{{item.img}" id="input-image" ng-model="image"/>
         <!-- <a href="#/"> -->
-        <h4>Name</h4>
-        <div class="name" placeholder"{{item.name}}" ng-model="name"></div>
+        <h4>{{item.name}}</h4>
+        <div class="name" ng-model="nameItem"></div>
       </form>
      </div>
 
 
 <!--  PRICE AND DESCRIPTION -->
-<div class="col span_1_of_2">
-  <ul id="admin-new">
-      <li class="admin-new-li">
+<div class="col span_1_of_2"><!-- not sure if I need this here -->
+  <form ng-submit="submit()">
+    Edit Item:
         <!-- <a href="#/"> -->
-        <h3>Price:</h3><input type="price"  id="input-price" placeholder"{{item.price}}" ng-model="price"/>
+      <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="priceItem"/>
         <!-- <a href="#/"> -->
-        <h3>Description:</h3><input type="text" id="input-description" placeholder="{{item.description}}" ng-model="description"/>
-
-      </div>
+        <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
+        <input type = "submit" id = "submit" value="Submit"/><!-- not sure if I need this here -->
+  </form>
+</div>
       <!-- </a> -->
-    </li>
 
 
+          <div class="edit-btn">
         <!-- <li class='edit-btn'> -->
           <a href="#/mainpage">
           <button class="save-item-btn">Save</button>
         </a>
+      </div>
       <!-- </li> -->
-    </ul>
+
 </div>
 
 </div>
