@@ -1,55 +1,24 @@
-{
-  "item": [
-    {
-      "id": 0,
-      "name": "AuntBee.jpg",
-      "price": "$priceless",
-      "description": "A stand-up gal",
-      "img": "AuntBee.jpg"
-    },
-    {
-      "id": 1,
-      "name": "Bev",
-      "price": "$priceless",
-      "description": "Just outside his comfort zone",
-      "img": "Bev.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Sue",
-      "price": "$pricless",
-      "description": "You can't keep away from run-around Sue",
-      "img": ""
-    },
-    {
-      "id": 3,
-      "name": "",
-      "price": "",
-      "description": "",
-      "img": ""
-    },
-    {
-      "id": 4,
-      "name": "",
-      "price": "",
-      "description": "",
-      "img": ""
-    },
-    {
-      "id": 5,
-      "name": "",
-      "price": "",
-      "description": "",
-      "img": ""
-    },
-    {
-      "id": 6,
-      "name": "",
-      "price": "",
-      "description": "",
-      "img_url": ""
-    },
+{"item": [
+  {
+    "id": 0,
+    "name": "AuntBee.jpg",
+    "price": "$priceless",
+    "description": "A stand-up gal",
+    "img": "AuntBee.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Bev",
+    "price": "$priceless",
+    "description": "Just outside his comfort zone",
+    "img": "Bev.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sue",
+    "price": "$pricless",
+    "description": "You can't keep away from run-around Sue",
+    "img": ""
+  }
 
-  ],
-  "product": []
-}
+  ]}
