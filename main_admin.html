@@ -39,7 +39,7 @@
 
 
 <!--  IMAGE -->
-<div ng-repeat-start="item in items">
+<div ng-repeat="item in items">
 <div class="section group">
  <!-- <a href="#/editpage">  -->
  <!-- <div ng-repeat="item in items"> -->
@@ -47,9 +47,9 @@
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
        <a href='#/'>
 
-       <img src="{{item.image}}" id="input-image" type="text" ng-model="image"/>
+       <img src="{{item.image}}" id="input-image" type="image" ng-model="imageItem"/>
        <h5>Name</h5>
-       <div class="name"  placeholder"{{item.name}}" ng-model="name"></div>
+       <div class="name"  placeholder"{{item.name}}" ng-model="nameItem"></div>
      <!-- </form> -->
      </div>
 
@@ -60,8 +60,9 @@
        <a href='#/editpage'>
        <button class="main-edit"><span>Edit</span></button></a>
 
-    </div ng-repeat-end>
+    </div>
   <!-- </div> -->
+</div>
 </div>
 <!---   end of row 1 --->
 

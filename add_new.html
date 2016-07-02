@@ -37,52 +37,62 @@
         </header>
 
         <!--   IMAGE  -->
-          <div ng-repeat-start="item in items">
+          <!-- <div ng-submit=()> -->
+        <div ng-repeat-start="item in items">
             <div class="section group">
+
               <div class="col span_1_of_2">
-                <!-- <form class="new-list-form" action="index.html" method="post"> -->
+                <form ng-submit="submit()">
                 <a href='#/'>
-                <img src="{{item.img}" id="input-image" type="image" ng-model="image"/></a>
+                <img src"{{item.img}}" id="input-image" ng-model="imageItem"/></a>
                 <!-- <a href="#/"> -->
                 <h5>Name</h5>
-                <div class="name"  placeholder"{{item.name}}" ng-model="name"></div>
-                <!-- </form> -->
+                <div id="name"  placeholder="{{item.name}}" ng-model="nameItem"></div>
+                </form>
+
               </div>
 
 
         <!--  PRICE AND DESCRIPTION -->
             <div class="col span_1_of_2">
-              <ul id="admin-new">
-                  <li class="admin-new-li">
+              <!-- <ul id="admin-new"> -->
+              <form ng-submit="submit()">
+                Add New Item:
+                  <!-- <li class="admin-new-li"> -->
                     <!-- <a href="#/"> -->
-                    <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="price"/>
-                    <h3>Price</h3>
+                    <input type="number"  id="input-price" placeholder="{{item.price|currency}}" ng-model="priceItem"/>
+
                     <!-- <a href="#/"> -->
-                  <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="description"/>
-                    <h3>Description</h3>
-                  </div>
+                  <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
+                  <input type = "submit" id = "submit" value="Submit"/>
+              </form>
+            </div>
                   <!-- </a> -->
-                </li>
+                <!-- </li> -->
 
 
 
-                <!-- <li class='new-btn'> -->
-                  <a href="#/mainpage">
-                  <button><a href ng-click="addItem()" class="new-page-btn">Save</button></a>
-                </a>
-              <!-- </li> -->
-            </ul>
+
+            </div>
         </div>
 
-    </div>
+
+              <div class='new-btn'>
+                <a href="#/mainpage">
+                <button class="new-page-btn">Save</button></a>
+
+              </div>
 
 
 
 
-<!--
 
 
-  <body>
+
+
+
+
+
 
   </body>
-</html> -->
+</html>
