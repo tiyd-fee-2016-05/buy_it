@@ -1,22 +1,7 @@
 
 console.log("JS connected");
 
-//add to cart confirmation modal
-
-$('.addBtn').on('click', function(){
-  $('.confirmAlert, .closeConfirm').css('display', 'inline-block');
-console.log("Add cart clicked");
-});
-
-
-$('.closeConfirm').on('click', function(e){
-  e.preventDefault
-  $('.confirmAlert, .closeConfirm').css('display', 'none');
-});
-
-console.log("cart confirm modal ready to go")
-
-
+//routing
 var mainApp = angular.module("mainApp", ['ngRoute']);
   mainApp.config(function($routeProvider) {
     $routeProvider

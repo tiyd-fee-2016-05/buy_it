@@ -232,6 +232,22 @@ body {
   background-color: white;
   font-family: Roboto, sans-serif; }
 
+.landingPageHead {
+  font-family: Grand Hotel, cursive;
+  font-size: 60px; }
+
+.login-container {
+  border: solid 2px black;
+  width: 20em;
+  padding: 7%; }
+
+#adminRoute {
+  text-align: center;
+  border: solid 2px black;
+  width: 15em;
+  padding: 15%;
+  margin: 15%; }
+
 .topPad {
   height: 1em;
   width: 100%; }
@@ -321,5 +337,18 @@ h2 {
 
 .closeConfirm {
   display: none; }
+
+.cartGrid {
+  width: 100%; }
+
+.productName {
+  margin-left: 10%; }
+
+.productPrice {
+  margin-left: 20%;
+  border: solid 1px gray; }
+
+.productQuantity {
+  margin-left: 10%; }
 
 /*# sourceMappingURL=consumer_styles.css.map */
