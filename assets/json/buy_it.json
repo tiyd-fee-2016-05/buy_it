@@ -1,12 +1,12 @@
 {
-  "allBees": [
+  "item": [
     {
       "id": 0,
-      "name": "Mr. Pollen",
+      "name": "Sue",
       "type": "Carniolan",
       "price": 25,
-      "description": "Mr. Pollen's family hails from the European continent, and his laid back perosnality makes him fun to unwind with.",
-      "image": "assets/images/mr_pollen.jpg"
+      "description": "Mr. Pollen's family hails from the European continent, and his laid back personality makes him fun to unwind with.",
+      "image": "assets/images/Sue.jpg"
     },
     {
       "id": 1,
@@ -14,7 +14,7 @@
       "type": "Russian",
       "price": 25,
       "description": "This Southern belle is as smart as she is beautiful. She'll keep you guessing with her inquisitive nature and expansive trivia knowledge.",
-      "image": "assets/images/strawberry_beauty.jpg"
+      "image": "assets/images/StrawberryBeauty.jpg"
     },
     {
       "id": 2,
@@ -22,21 +22,16 @@
       "type": "Buckfast",
       "price": 25,
       "description": "This Egnlish gentleman is a fine gem for anyone who enjoys afternoon tea and discussing Medeival politics.",
-      "image": "assets/images/buckfastbee_sean.jpg"
+      "image": "assets/images/BuckSean.jpg"
     },
     {
       "id": 3,
       "name": "Dusty Legs",
       "type": "German",
       "price": 25,
-      "desc": "Ol' Dusty Legs does best as the only bee in the friend group. He can get a little nervous and likes people who will take time to listen to his life's stories",
-      "image": "assets/images/mr_pollen.png"
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
+      "description": "Ol' Dusty Legs does best as the only bee in the friend group. He can get a little nervous and likes people who will take time to listen to his life's stories",
+      "image": "assets/images/dusty.jpg"
     }
+    
   ]
 }

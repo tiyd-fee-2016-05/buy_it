@@ -73,30 +73,41 @@ h1 {
 /*********   NEWPAGE STYLING *********/
 #newpage {
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   height: 100%;
   width: 100%;
   border: 2px solid black; }
   #newpage .adminNewPage {
+    background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");
+    /**  header nav-bar color  **/
+    background-position: center;
+    height: 6em;
     padding-top: 3em;
-    border-bottom: 2px solid grey;
-    background-color: darkgrey;
-    /****  header/nav-bar color **/ }
+    border-bottom: 2px solid grey; }
     #newpage .adminNewPage #back-button {
       padding: 0.2em 0.5em;
-      color: grey;
+      color: white;
       border: none;
       background: none;
-      font-size: 2em;
+      font-size: 2.5em;
+      font-weight: bold;
       position: absolute;
       top: 0;
       left: 0;
       display: inline-block; }
-    #newpage .adminNewPage .link {
+    #newpage .adminNewPage .header {
+      background-color: black;
+      height: 4em; }
+    #newpage .adminNewPage .link a {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 25px;
+      text-decoration: none;
+      color: white;
       display: inline-block;
       float: right;
       width: 4em;
-      height: 4em;
+      height: 6em;
       cursor: pointer; }
   #newpage #input-image {
     margin-left: 2em;
@@ -119,30 +130,41 @@ h1 {
 /****************************************************/
 #editpage {
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   height: 100%;
   width: 100%;
   border: 2px solid black; }
   #editpage .adminEditPage {
+    background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");
+    background-position: center;
+    height: 6em;
     padding-top: 3em;
-    border-bottom: 2px solid grey;
-    background-color: #90C9D4;
-    /** header nav-bar color  **/ }
+    border-bottom: 2px solid grey; }
     #editpage .adminEditPage #back-button {
       padding: 0.2em 0.5em;
-      color: grey;
+      color: white;
       border: none;
       background: none;
-      font-size: 2em;
+      font-size: 2.5em;
+      font-weight: bold;
       position: absolute;
       top: 0;
       left: 0;
       display: inline-block; }
-    #editpage .adminEditPage .link {
+    #editpage .adminEditPage .header {
+      background-color: black;
+      height: 4em; }
+    #editpage .adminEditPage .link a {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 25px;
+      text-decoration: none;
+      color: white;
       display: inline-block;
       float: right;
       width: 4em;
-      height: 4em; }
+      height: 6em;
+      cursor: pointer; }
   #editpage #input-image {
     margin-left: 2em;
     width: 10em;

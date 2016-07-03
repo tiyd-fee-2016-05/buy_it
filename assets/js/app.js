@@ -38,23 +38,23 @@ Admin.config(function($routeProvider) {
     // }).done(function(allBees){$scope.item = allBees;});
 
     //this seems to work!
-    $http.get('http://localhost:3005/allBees').success(function(data){
-      $scope.allBees = data;
+    $http.get('http://localhost:3005/item').success(function(data){
+      $scope.items = data;
       // item = data.length;
       // item = (data[data.length-1].id)+1;
       console.log("working!");
       console.log(data);
-      console.log($scope.allBees);
+      console.log($scope.items);
 
 
     });
 //ng-click post(function)//
-    $http.post('http://localhost:3005/allBees/').success(function(data) {
-      $scope.allBees = data;
+    $http.post('http://localhost:3005/item/').success(function(data) {
+      $scope.items = data;
 
 
       // console.log(data);
-      console.log($scope.allBees);
+      console.log($scope.items);
     });
 
 

@@ -32,14 +32,14 @@
       <li class="link"><a href="#">Buyer</li></a>
       <!-- <button>Buyer</button></li> -->
 
-      <li class="link"><a href="#">Home</li></a>
+      <li class="link"><a href="#/main_admin.html">Home</li></a>
       <!-- <button>Homer</button></li> -->
       <ul>
     </header>
 
 
 <!--  IMAGE -->
-<div ng-repeat="allBees in allBees">
+<div ng-repeat="item in items">
 <div class="section group">
  <!-- <a href="#/editpage">  -->
  <!-- <div ng-repeat="item in items"> -->
@@ -47,15 +47,15 @@
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
        <!-- <a href='#/'> -->
 
-       <img ng-src="{{allBees.img}}" id="input-image" type="image" ng-model="imageItem"/>
-       <h5>{{allBees.name}}</h5>
+       <img ng-src="{{item.image}}" id="input-image" type="image" ng-model="imageItem"/>
+       <h5>{{item.name}}</h5>
        <div class="name"  ng-model="nameItem"></div>
      <!-- </form> -->
      </div>
 
      <div class="col span_1_of_2">
        <!-- <form class="new-list-form" action="index.html" method="post"> -->
-       <input type="text"  id="input-description" placeholder="{{allBees.description}}" ng-model="descripton">
+       <input type="text"  id="input-description" placeholder="{{item.description}}" ng-model="descriptonItem">
        <!-- </form> -->
        <a href='#/editpage'>
        <button class="main-edit"><span>Edit</span></button></a>

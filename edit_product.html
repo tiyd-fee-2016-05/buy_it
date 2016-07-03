@@ -22,35 +22,37 @@
       <header class="adminEditPage"><!--- Nav Bar -->
       <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
       <h1>beeFF's</h1>
-        <ul>
-          <a href="#/">
-          <img src="#" id="logo"></a>
-          <a href="#">
-          <li class="link">Cart</a></li>
-          <!-- <button>Cart</button></li> -->
-          <a href="#">
-          <li class="link">Person</a></li>
-          <!-- <button>Person</button></li> -->
-          <a href="#">
-          <li class="link">Home</a></li>
-          <!-- <button>Home</button></li> -->
-        <ul>
+
+    <ul class="header"><!-- control color-->
+    <a href="#/">
+    <li><i class="fa fa-cogs" aria-hidden="true"></i><li></a>
+
+
+    <li class="link"> <a href="#">Cart</li></a>
+    <!-- <button>Cart</button></li> -->
+
+    <li class="link"><a href="#">Buyer</li></a>
+    <!-- <button>Buyer</button></li> -->
+
+    <li class="link"><a href="#/main_admin.html">Home</li></a>
+    <!-- <button>Homer</button></li> -->
+    <ul>
     </header>
 
 
 
 
 <!--   IMAGE  -->
-<div ng-repeat="allBees in allBees">
+<div ng-repeat="item in items">
     <div class="section group">
 
       <div class="col span_1_of_2">
         <form ng-submit="submit()">
         <!-- <a href='#/'> -->
-        <img ng-src="{{allBees.image}" id="input-image" ng-model="imageallBees"/>
+        <img ng-src="{{item.image}" id="input-image" ng-model="imageItem"/>
         <!-- <a href="#/"> -->
-        <h4>{{allBees.name}}</h4>
-        <div class="name" ng-model="nameallBees"></div>
+        <h4>{{item.name}}</h4>
+        <div class="name" ng-model="nameItem"></div>
       </form>
      </div>
 
@@ -60,9 +62,9 @@
   <form ng-submit="submit()">
     Edit Item:
         <!-- <a href="#/"> -->
-      <input type="price"  id="input-price" placeholder"{{allBees.price|currency}}" ng-model="price"/>
+      <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="priceItem"/>
         <!-- <a href="#/"> -->
-        <input type="text" id="input-description" placeholder="{{allBees.description}}" ng-model="descriptionallBees"/>
+        <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
         <input type = "submit" id = "submit" value="Submit"/><!-- not sure if I need this here -->
   </form>
 </div>
