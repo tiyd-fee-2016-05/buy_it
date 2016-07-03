@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   height: 90%;
   width: 90%;
   margin: 0em 4em 0em 4em;
@@ -9,11 +9,11 @@
 /**********************************************/
 /***    GLOBAL FORM  *************************/
 h1 {
-  text-align: center;
+  float: left;
   font-size: 5em;
   font-weight: normal;
-  color: white;
-  font-family: "Lato", Verdana, sans-serif; }
+  color: #FAF7CF;
+  font-family: "Grand Hotel", Verdana, sans-serif; }
 
 .fa.fa-cogs {
   padding-top: 0.2em;
@@ -23,7 +23,7 @@ h1 {
 /*******  MAINPAGE STYLING  ****/
 #mainpage {
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   height: 100%;
   width: 100%;
   border: 2px solid black; }
@@ -31,11 +31,12 @@ h1 {
     background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");
     /**  header nav-bar color  **/
     background-position: center;
+    height: 6em;
     padding-top: 3em;
     border-bottom: 2px solid grey; }
     #mainpage .mainAdmPage .header {
       background-color: black;
-      height: 3em; }
+      height: 4em; }
     #mainpage .mainAdmPage .link a {
       padding-left: 1em;
       padding-right: 1em;
