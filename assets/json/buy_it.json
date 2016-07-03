@@ -1,91 +1,42 @@
 {
-  "item": [
+  "allBees": [
     {
       "id": 0,
-      "name": "AuntBee",
-      "price": "priceless",
-      "description": "A stand-up gal",
-      "img": "assets/img/AuntBee.jpg"
+      "name": "Mr. Pollen",
+      "type": "Carniolan",
+      "price": 25,
+      "description": "Mr. Pollen's family hails from the European continent, and his laid back perosnality makes him fun to unwind with.",
+      "image": "assets/images/mr_pollen.jpg"
     },
     {
       "id": 1,
-      "name": "Bev",
-      "price": "priceless",
-      "description": "Just outside his comfort zone",
-      "img": "assets/img/Bev.jpg"
+      "name": "Strawberry Beauty",
+      "type": "Russian",
+      "price": 25,
+      "description": "This Southern belle is as smart as she is beautiful. She'll keep you guessing with her inquisitive nature and expansive trivia knowledge.",
+      "image": "assets/images/strawberry_beauty.jpg"
     },
     {
       "id": 2,
-      "name": "Sue",
-      "price": "5",
-      "description": "You can't keep away from run-around Sue",
-      "img": "assets/img/Sue.jpg"
+      "name": "Sean",
+      "type": "Buckfast",
+      "price": 25,
+      "description": "This Egnlish gentleman is a fine gem for anyone who enjoys afternoon tea and discussing Medeival politics.",
+      "image": "assets/images/buckfastbee_sean.jpg"
     },
     {
-      "id": 3
+      "id": 3,
+      "name": "Dusty Legs",
+      "type": "German",
+      "price": 25,
+      "desc": "Ol' Dusty Legs does best as the only bee in the friend group. He can get a little nervous and likes people who will take time to listen to his life's stories",
+      "image": "assets/images/mr_pollen.png"
     },
     {
       "id": 4
     },
     {
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
     }
   ]
 }

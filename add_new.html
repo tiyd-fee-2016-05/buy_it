@@ -38,16 +38,16 @@
 
         <!--   IMAGE  -->
           <!-- <div ng-submit=()> -->
-        <div ng-repeat="item in items">
+        <div ng-repeat="allBees in allBees">
             <div class="section group">
 
               <div class="col span_1_of_2">
                 <form ng-submit="submit()">
                 <!-- <a href='#/'> -->
-                <img ng-src"{{item.img}}" id="input-image" ng-model="imageItem"/></a>
+                <img ng-src"{{allBees.image}}" id="input-image" ng-model="imageallBees"/></a>
                 <!-- <a href="#/"> -->
-                <h5>{{item.name}}</h5>
-                <div class="name"  ng-model="nameItem"></div>
+                <h5>{{allBees.name}}</h5>
+                <div class="name"  ng-model="nameAllBees"></div>
                 </form>
 
               </div>
@@ -60,10 +60,10 @@
                 Add New Item:
                   <!-- <li class="admin-new-li"> -->
                     <!-- <a href="#/"> -->
-                    <input type="price"  id="input-price" placeholder="{{item.price|currency}}" ng-model="priceItem"/>
+                    <input type="price"  id="input-price" placeholder="{{allBees.price|currency}}" ng-model="priceallBees"/>
 
                     <!-- <a href="#/"> -->
-                  <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
+                  <input type="text" id="input-description" placeholder="{{allBees.description}}" ng-model="descriptionallBees"/>
                   <input type = "submit" id = "submit" value="Submit"/>
               </form>
             </div>

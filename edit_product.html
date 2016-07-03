@@ -21,7 +21,7 @@
 <!--    HEADER  -->
       <header class="adminEditPage"><!--- Nav Bar -->
       <a href="#/mainpage" id="back-button"><i class="fa fa-angle-left" aria-hidden="true"></i></a><!-- BACK ARROW -->
-      <h1>BeeFF</h1>
+      <h1>beeFF's</h1>
         <ul>
           <a href="#/">
           <img src="#" id="logo"></a>
@@ -41,16 +41,16 @@
 
 
 <!--   IMAGE  -->
-<div ng-repeat="item in items">
+<div ng-repeat="allBees in allBees">
     <div class="section group">
 
       <div class="col span_1_of_2">
         <form ng-submit="submit()">
         <!-- <a href='#/'> -->
-        <img ng-src="{{item.img}" id="input-image" ng-model="image"/>
+        <img ng-src="{{allBees.image}" id="input-image" ng-model="imageallBees"/>
         <!-- <a href="#/"> -->
-        <h4>{{item.name}}</h4>
-        <div class="name" ng-model="nameItem"></div>
+        <h4>{{allBees.name}}</h4>
+        <div class="name" ng-model="nameallBees"></div>
       </form>
      </div>
 
@@ -60,9 +60,9 @@
   <form ng-submit="submit()">
     Edit Item:
         <!-- <a href="#/"> -->
-      <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="priceItem"/>
+      <input type="price"  id="input-price" placeholder"{{allBees.price|currency}}" ng-model="price"/>
         <!-- <a href="#/"> -->
-        <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
+        <input type="text" id="input-description" placeholder="{{allBees.description}}" ng-model="descriptionallBees"/>
         <input type = "submit" id = "submit" value="Submit"/><!-- not sure if I need this here -->
   </form>
 </div>

@@ -24,7 +24,7 @@ Admin.config(function($routeProvider) {
 
 
     Admin.controller("mainController", function($scope,$http) {
-            var url = "item.image";
+            // var url = "item.image";
             console.log("is it working");
 
 
@@ -38,23 +38,23 @@ Admin.config(function($routeProvider) {
     // }).done(function(allBees){$scope.item = allBees;});
 
     //this seems to work!
-    $http.get('http://localhost:3005/item').success(function(data){
-      $scope.items = data;
+    $http.get('http://localhost:3005/allBees').success(function(data){
+      $scope.allBees = data;
       // item = data.length;
       // item = (data[data.length-1].id)+1;
       console.log("working!");
       console.log(data);
-      console.log($scope.items);
+      console.log($scope.allBees);
 
 
     });
 //ng-click post(function)//
-    $http.post('http://localhost:3005/item/').success(function(data) {
-      $scope.item = data;
+    $http.post('http://localhost:3005/allBees/').success(function(data) {
+      $scope.allBees = data;
 
 
       // console.log(data);
-      console.log($scope.items);
+      console.log($scope.allBees);
     });
 
 
