@@ -20,7 +20,9 @@ h1 {
   color: white;
   font-size: 20px; }
 
-/*******  MAINPAGE STYLING  ****/
+/**************   LANDING PAGE   ****************/
+/***********************  END OF Landing Page  *********/
+/*******  MAIN ADMIN PAGE STYLING  ****/
 #mainpage {
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
@@ -70,6 +72,7 @@ h1 {
     height: 3em;
     cursor: pointer; }
 
+/************   end of adminNewPage  ******/
 /*********   NEWPAGE STYLING *********/
 #newpage {
   position: relative;
@@ -127,7 +130,7 @@ h1 {
     border-radius: 5px;
     cursor: pointer; }
 
-/****************************************************/
+/***************   EDIT PAGE STYLING  *********************/
 #editpage {
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
@@ -184,6 +187,8 @@ h1 {
     height: 3em;
     cursor: pointer; }
 
+/***********  END of edit page styling *************/
+/********  GRID SET-UP FROM RESPONSE GRID ********/
 /*  SECTIONS  */
 .section {
   clear: both;

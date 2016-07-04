@@ -28,9 +28,74 @@ h1{
 
 
 
+/**************   LANDING PAGE   ****************/
+// .landingPageHead {
+//   font-family: Grand Hotel, cursive;
+//   font-size: 60px;
+//   margin-left: 1em; }
+//
+// .login-container {
+//   border: solid 2px black;
+//   width: 20em;
+//   padding: 10% 10% 10% 15%; }
+//
+// #adminRoute, #shopperRoute {
+//   text-align: center;
+//   border: solid 2px black;
+//   background-color: black;
+//   color: #feffff;
+//   width: 18em;
+//   padding: 5% 10%;
+//   margin: 7%; }
+//
+// .topPad {
+//   height: 1em;
+//   width: 100%;
+//   background-color: #F6C555; }
+//
+// .topWords {
+//   height: 5em;
+//   width: 100%;
+//   background-color: #F6C555; }
+//
+// .topLinks {
+//   color: #feffff; }
+//
+// h2 {
+//   text-align: center;
+//   width: 30%;
+//   margin-left: 60%; }
+//
+// .beeIcon {
+//   width: 5em;
+//   height: 5em;
+//   display: inline-block;
+//   padding: 2em;
+//   float: right; }
+//
+//   .nav {
+//     margin-right: 2em;
+//     float: right;
+//     background-color: #F6C555;
+//     color: #feffff;
+//     border: solid 2px #feffff;
+//     padding: 1em;
+//     font-family: Roboto;
+//     letter-spacing: 1.5px; }
+//
+//   .nav:active {
+//     color: #feffff; }
+//
+//   .nav:visited {
+//     text-decoration: none;
+//     color: #feffff; }
+/***********************  END OF Landing Page  *********/
 
 
-/*******  MAINPAGE STYLING  ****/
+
+
+
+/*******  MAIN ADMIN PAGE STYLING  ****/
 #mainpage{
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
@@ -90,8 +155,9 @@ h1{
     cursor:pointer;
 
   }
-
 }
+/************   end of adminNewPage  ******/
+
 
 
 
@@ -123,11 +189,10 @@ h1{
       display: inline-block;
 
     }
-
-      .header{
+    .header{
         background-color: black;
         height: 4em;
-      }
+    }
       .link a{
         padding-left: 1em;
         padding-right: 1em;
@@ -140,17 +205,12 @@ h1{
         height: 6em;
         cursor: pointer;
       }
-
-
   }
-
-
-    #input-image{
+  #input-image{
       margin-left: 2em;
       width: 10em;
       height: 10em;
-
-        }
+      }
         .name{
           margin-left: 20em;
         }
@@ -178,7 +238,7 @@ h1{
 
 
 
-/****************************************************/
+/***************   EDIT PAGE STYLING  *********************/
 #editpage{
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
@@ -245,25 +305,10 @@ h1{
           cursor:pointer;
         }
 }
-
-//   .homepage-li{
-//     position: relative;
-//     display: flex;
-//     margin: 1em 0 1em 1em;
-//   }
-//   .left-side{
-//     text-align: left;
-//     float: left;
-//     height: 5em;
-//     width: 20%;
-//     display: inline-block;
-//     background-color: $green;
-//     font-weight: 700;
-//     color: white;
-//
-// }
+/***********  END of edit page styling *************/
 
 
+/********  GRID SET-UP FROM RESPONSE GRID ********/
 /*  SECTIONS  */
 .section {
 	clear: both;

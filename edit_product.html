@@ -51,7 +51,7 @@
         <!-- <a href='#/'> -->
         <img ng-src="{{item.image}" id="input-image" ng-model="imageItem"/>
         <!-- <a href="#/"> -->
-        <h4>{{item.name}}</h4>
+        <h5>{{item.name}}</h5>
         <div class="name" ng-model="nameItem"></div>
       </form>
      </div>
@@ -62,7 +62,7 @@
   <form ng-submit="submit()">
     Edit Item:
         <!-- <a href="#/"> -->
-      <input type="price"  id="input-price" placeholder"{{item.price|currency}}" ng-model="priceItem"/>
+      <input type="price"  id="input-price" placeholder"{{item.price}}" ng-model="priceItem"/>
         <!-- <a href="#/"> -->
         <input type="text" id="input-description" placeholder="{{item.description}}" ng-model="descriptionItem"/>
         <input type = "submit" id = "submit" value="Submit"/><!-- not sure if I need this here -->
