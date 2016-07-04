@@ -234,29 +234,32 @@ body {
 
 .landingPageHead {
   font-family: Grand Hotel, cursive;
-  font-size: 60px; }
+  font-size: 60px;
+  margin-left: 1em; }
 
 .login-container {
   border: solid 2px black;
   width: 20em;
-  padding: 7%; }
+  padding: 10% 10% 10% 15%; }
 
-#adminRoute {
+#adminRoute, #shopperRoute {
   text-align: center;
   border: solid 2px black;
-  width: 15em;
-  padding: 15%;
-  margin: 15%; }
+  background-color: black;
+  color: #feffff;
+  width: 18em;
+  padding: 5% 10%;
+  margin: 7%; }
 
 .topPad {
   height: 1em;
-  width: 100%; }
+  width: 100%;
+  background-color: #F6C555; }
 
 .topWords {
   height: 5em;
   width: 100%;
-  background-color: black;
-  color: red; }
+  background-color: #F6C555; }
 
 .topLinks {
   color: #feffff; }
@@ -266,8 +269,29 @@ h2 {
   width: 30%;
   margin-left: 60%; }
 
+.beeIcon {
+  width: 5em;
+  height: 5em;
+  display: inline-block;
+  padding: 2em;
+  float: right; }
+
 .nav {
-  margin-left: 1em; }
+  margin-right: 2em;
+  float: right;
+  background-color: #F6C555;
+  color: #feffff;
+  border: solid 2px #feffff;
+  padding: 1em;
+  font-family: Roboto;
+  letter-spacing: 1.5px; }
+
+.nav:active {
+  color: #feffff; }
+
+.nav:visited {
+  text-decoration: none;
+  color: #feffff; }
 
 .wrapper {
   margin: 10%;

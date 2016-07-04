@@ -6,10 +6,14 @@ var mainApp = angular.module("mainApp", ['ngRoute']);
   mainApp.config(function($routeProvider) {
     $routeProvider
     .when('/home', {
-      templateUrl: '../../product_grid.html'
-    })//end of /home routing
+      templateUrl: '../../landing_page.html'
+    })//end of /landing_page routing
 
-    .when('/product_detail', {
+    .when('/bees',{
+      templateUrl: '../../product_grid.html'
+    })//end of /product_grid.html routing
+
+    .when('/bee_detail', {
       templateUrl: '../../product_detail.html'
     })//end of /product_detail routing
 
