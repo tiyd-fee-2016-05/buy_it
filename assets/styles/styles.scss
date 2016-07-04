@@ -208,8 +208,8 @@ h1{
   }
   #input-image{
       margin-left: 2em;
-      width: 10em;
-      height: 10em;
+      width: 20em;
+      height: 20em;
       }
         .name{
           margin-left: 20em;
@@ -246,7 +246,7 @@ h1{
   width: 100%;
   border: 2px solid black;
   .adminEditPage{
-    background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");
+    background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");/**  header nav-bar color  **/
     background-position: center;
     height: 6em;
     padding-top: 3em;
@@ -266,36 +266,39 @@ h1{
 
     }
     .header{
-      background-color: black;
-      height: 4em;
+        background-color: black;
+        height: 4em;
     }
-    .link a{
-      padding-left: 1em;
-      padding-right: 1em;
-      font-size: 25px;
-      text-decoration: none;
-      color: white;
-      display: inline-block;
-      float: right;
-      width: 4em;
-      height: 6em;
-      cursor: pointer;
-    }
+      .link a{
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        float: right;
+        width: 4em;
+        height: 6em;
+        cursor: pointer;
+      }
   }
-    #input-image{
+  #input-image{
       margin-left: 2em;
-      width: 10em;
-      height: 10em;
+      width: 20em;
+      height: 20em;
+      }
+        .name{
+          margin-left: 20em;
         }
     #input-price{
-      margin-top: 2em;
-      width: 10em;
-      height: 5em;
+      margin-top: 0em;
+      width: 6em;
+      height: 2em;
         }
     #input-description{
-      margin-top: 1.5em;
+      margin-top:.5em;
       width: 23em;
-      height: 4em;
+      height: 2em;
         }
         .save-item-btn{
           border-radius: 5px;

@@ -48,14 +48,28 @@ Admin.config(function($routeProvider) {
 
 
     });
+
+
+    // var item = [];
+
+    //grabs the input //
+
+
+  // var newItem = {
+  //   image: $('#input-image').val(),
+  //   descriptiont: $('#input-description').val(),
+  //   price: $('#input-price').val()
+  //
+  // };
+
+
 //ng-click post(function)//
+
     $http.post('http://localhost:3005/item/').success(function(data) {
       $scope.items = data;
 
 
       // console.log(data);
       console.log($scope.items);
+      });
     });
-
-
-    })

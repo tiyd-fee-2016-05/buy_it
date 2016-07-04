@@ -114,8 +114,8 @@ h1 {
       cursor: pointer; }
   #newpage #input-image {
     margin-left: 2em;
-    width: 10em;
-    height: 10em; }
+    width: 20em;
+    height: 20em; }
   #newpage .name {
     margin-left: 20em; }
   #newpage #input-price {
@@ -139,6 +139,7 @@ h1 {
   border: 2px solid black; }
   #editpage .adminEditPage {
     background-image: url("http://i2.mirror.co.uk/incoming/article7914302.ece/ALTERNATES/s615b/A-swarm-of-bees.jpg");
+    /**  header nav-bar color  **/
     background-position: center;
     height: 6em;
     padding-top: 3em;
@@ -170,16 +171,18 @@ h1 {
       cursor: pointer; }
   #editpage #input-image {
     margin-left: 2em;
-    width: 10em;
-    height: 10em; }
+    width: 20em;
+    height: 20em; }
+  #editpage .name {
+    margin-left: 20em; }
   #editpage #input-price {
-    margin-top: 2em;
-    width: 10em;
-    height: 5em; }
+    margin-top: 0em;
+    width: 6em;
+    height: 2em; }
   #editpage #input-description {
-    margin-top: 1.5em;
+    margin-top: .5em;
     width: 23em;
-    height: 4em; }
+    height: 2em; }
   #editpage .save-item-btn {
     border-radius: 5px;
     margin-left: 45em;
