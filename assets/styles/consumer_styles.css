@@ -229,7 +229,7 @@
     width: 0;
     height: 0; } }
 body {
-  background-color: white;
+  background-color: #E8E8E8;
   font-family: Roboto, sans-serif; }
 
 .landingPageHead {
@@ -238,15 +238,19 @@ body {
   margin-left: 1em; }
 
 .login-container {
-  border: solid 2px black;
+  border: solid 2px gray;
   width: 20em;
-  padding: 10% 10% 10% 15%; }
+  padding: 15%;
+  margin: 10% 70%; }
 
 #adminRoute, #shopperRoute {
+  font-family: Roboto;
+  font-size: 15px;
+  letter-spacing: 3px;
   text-align: center;
-  border: solid 2px black;
-  background-color: black;
-  color: #feffff;
+  border: solid 2px gray;
+  background-color: #E8E8E8;
+  color: gray;
   width: 18em;
   padding: 5% 10%;
   margin: 7%; }
@@ -259,10 +263,11 @@ body {
 .topWords {
   height: 5em;
   width: 100%;
-  background-color: #F6C555; }
+  background-color: #F6C555;
+  color: gray; }
 
-.topLinks {
-  color: #feffff; }
+.nav {
+  color: gray; }
 
 h2 {
   text-align: center;
@@ -270,28 +275,32 @@ h2 {
   margin-left: 60%; }
 
 .beeIcon {
-  width: 5em;
-  height: 5em;
+  width: 12em;
+  height: 12em;
   display: inline-block;
-  padding: 2em;
-  float: right; }
+  padding: 1em;
+  float: left;
+  margin-top: 70%; }
 
 .nav {
   margin-right: 2em;
   float: right;
   background-color: #F6C555;
-  color: #feffff;
-  border: solid 2px #feffff;
+  border: solid 2px gray;
   padding: 1em;
   font-family: Roboto;
   letter-spacing: 1.5px; }
 
-.nav:active {
-  color: #feffff; }
+a {
+  color: gray;
+  text-decoration: none; }
 
-.nav:visited {
+a:active {
+  color: gray; }
+
+a:visited {
   text-decoration: none;
-  color: #feffff; }
+  color: gray; }
 
 .wrapper {
   margin: 10%;
@@ -308,15 +317,15 @@ h2 {
   width: 90%; }
 
 .content {
-  border: solid 1.5px #1C88FC;
-  margin: auto;
+  border: solid 2px gray;
+  margin: 10% auto;
   text-align: center; }
 
 .grid_pics {
-  width: 175px;
+  width: 200px;
   height: 200px;
   margin: auto;
-  padding: 7%; }
+  padding: 10%; }
 
 .price {
   padding: 5% 0 5% 0;
@@ -337,7 +346,7 @@ h2 {
 .description {
   text-align: center; }
 
-.addBtn {
+.addCart {
   display: inline-block;
   border: solid 2px black;
   cursor: default;
@@ -359,10 +368,16 @@ h2 {
 .confirmAlert {
   display: none; }
 
+.confirmAlert.showing {
+  display: block; }
+
 .closeConfirm {
   display: none; }
 
-.cartGrid {
+.closeConfirm.showing {
+  display: block; }
+
+.cartGrid-label {
   width: 100%; }
 
 .productName {
@@ -371,6 +386,16 @@ h2 {
 .productPrice {
   margin-left: 20%;
   border: solid 1px gray; }
+
+.cartTitles {
+  color: gray;
+  margin: 3em; }
+
+.cartTotal {
+  margin-top: 70%;
+  float: right;
+  padding: 10%;
+  color: gray; }
 
 .productQuantity {
   margin-left: 10%; }

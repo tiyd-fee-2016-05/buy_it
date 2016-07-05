@@ -1,16 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/styles/consumer_styles.css">
-    <title>View Products</title>
-</head>
-
-<body> -->
-
 
     <div class="topWords">
         <div class="topPad">
@@ -19,110 +6,90 @@
       <button class = "nav"><a href = "#/cart"><h3>cart</h3></button></a>
       <button class = "nav"><h3>admin</h3></button>
       <button class = "nav"><a href = "#/bees"><h3>find friends</h3></button></a>
-      <h1 class= "landingPageHead">bee_FFs</h1>
+      <h1 class= "landingPageHead"><a class = "routingLinks" href = "#/home">bee_FFs</h1></a>
     </span>
     </div>
 
     <div class="wrapper">
-        <div class="pictureGrid">
+        <div class="pictureGrid" ng-controller = "beeCtrl as bees">
 
             <!--Begin grid rows-->
-            <div class="grid grid-pad">
+            <!--Attempt at using angular to wire up this ish-->
+            <!-- <div class="grid grid-pad">
+                <div class="col-1-3" ng-repeat>
+                    <div class="content">
+                        <img class="grid_pics">{{allBees.image}}</>
+                        <div class="description">{{allBees.name}}</div>
+                        <div class="price">{{allBees[beeIndex].price | currency}}</div>
+                    </div> -->
+                <!-- </div> -->
+
                 <div class="col-1-3">
                     <div class="content">
-                      <a href= "#/bee_detail">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
+                        <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/mr_pollen.jpg">
                         </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
+                        <div class="description"> Mr. Pollen, Carniolan honeybee</div>
+                        <div class="price"> $25</div>
                       </a>
                     </div>
                 </div>
                 <div class="col-1-3">
                     <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
+                        <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/strawberry_beauty.jpg">
                         </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
+                        <div class="description"> Strawberry Beauty, Russian honeybee</div>
+                        <div class="price"> $25</div>
+                      </a>
                     </div>
                 </div>
                 <div class="col-1-3">
                     <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
+                      <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/buckfastbee_sean.jpg">
                         </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
+                        <div class="description"> Sean-the-Englishman, Buckfast honeybee</div>
+                        <div class="price"> $25</div>
+                      </a>
                     </div>
                 </div>
-            </div>
 
             <!-- End of row one -->
+                <div class="col-1-3">
+                    <div class="content">
+                      <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/dusty_legs.jpg">
+                        </>
+                        <div class="description"> Dusty Legs, German honeybee</div>
+                        <div class="price"> $25</div>
+                      </a>
+                    </div>
+                </div>
 
-            <div class="grid grid-pad">
                 <div class="col-1-3">
                     <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
+                      <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/Treetrunks_honeybee.jpg">
                         </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
+                        <div class="description"> Treetrunks, Russian honeybee</div>
+                        <div class="price"> $25</div>
+                      </a>
                     </div>
                 </div>
                 <div class="col-1-3">
                     <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
+                      <a href= "#/bee_detail">
+                        <img class="grid_pics" src="assets/images/Maurice_honeybee.jpg">
                         </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
-                    </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
-                        </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
+                        <div class="description"> Maurice, Carniolan honeybee</div>
+                        <div class="price"> $25</div>
+                      </a>
                     </div>
                 </div>
             </div>
 
             <!--End of row two-->
 
-            <div class="grid grid-pad">
-                <div class="col-1-3">
-                    <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
-                        </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
-                        <button class ="addCart"> Add to Cart </button>
-                    </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
-                        </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
-                    </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="content">
-                        <img class="grid_pics" src="assets/images/img_placeholder.gif">
-                        </>
-                        <div class="description"> Information about the stuff goes here</div>
-                        <div class="price"> $15</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- End of row three--> 
-
-
-            <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular-resource.min.js"></script>
-            <script type="text/javascript" src="assets/js/app.js"></script>
-</body>
-
-</html> -->
+          </div>
+        </div>
