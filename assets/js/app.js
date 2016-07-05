@@ -65,7 +65,7 @@ Admin.config(function($routeProvider) {
 
 //ng-click post(function)//
 
-    $http.post('http://localhost:3005/item/').success(function(data) {
+    $http.post('http://localhost:3005/item/1').success(function(data) {
       $scope.items = data;
 
 
