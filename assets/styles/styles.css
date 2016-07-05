@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   position: relative;
   font-family: "Open Sans Condensed", sans-serif;
@@ -234,5 +235,8 @@ h1 {
 @media only screen and (max-width: 480px) {
   .span_2_of_2, .span_1_of_2 {
     width: 100%; } }
+=======
+
+>>>>>>> e118c25d695b496b151b7e4d26a47c7c25167dec
 
 /*# sourceMappingURL=styles.css.map */
